@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Login/Registration | KingShip</title>
+  <link rel="stylesheet"  href="login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+  
+
+<div class="login-hero">
+   <div class="login-form-box">
+    <div class="login-button-box">
+      <div id="login-btn"></div>
+      <button type="button" class="login-toggle-btn" onclick="login()">Log In</button>
+      <button type="button" class="login-toggle-btn" onclick="register()">Register</button>
+    
+    </div>
+    <div class="login-social-icons">
+      <img src="images/fb.png">
+      <img src="images/tw.png">
+      <img src="images/gp.png">
+
+</div>
+<form id="login"class="login-input-group">
+  <i class="fa fa-user"></i>
+  <input type="text"class="login-input-field" placeholder="user id" required>
+  <i class="fa fa-key"></i>
+  <input type="text"class="login-input-field"placeholder="Enter Password" required>
+  <input type="checkbox" class="login-check-box"><span>Remember Password</span>
+<button type="submit" class="login-submit-btn">Log In</button>
+</form>
+
+<form id="register"class="login-input-group">
+  <i class="fa fa-user"></i>
+  <input type="text"class="login-input-field" placeholder="user id" required>
+  <i class="fa fa-envelope-o"></i>
+  <input type="email"class="login-input-field"placeholder="Email id" required>
+<i class="fa fa-key"></i>
+   <input type="text"class="login-input-field"placeholder="Enter Password" required>
+  <input type="checkbox" class="login-check-box"><span>I agree to the terms and conditions</span>
+<button type="submit" class="login-submit-btn">Register</button>
+</form>
+
+
+    
+</div>
+
+<script> 
+var x = document.getElementById("login");
+var y = document.getElementById("register");
+var z = document.getElementById("login-btn");
+
+function register(){
+  x.style.left = "-400px";
+  y.style.left = "50px";
+  z.style.left = "110px";
+}
+
+function login(){
+  x.style.left = "50px";
+  y.style.left = "450px";
+  z.style.left = "0px";
+
+  }
+</script>
+
+
+
+
+
+ </body>
+ </html>
+
+
