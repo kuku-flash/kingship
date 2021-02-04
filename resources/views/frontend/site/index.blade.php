@@ -8,7 +8,7 @@
             <div class="col-lg-8 ftco-animate">
                 <div class="text w-100 text-center mb-md-5 pb-md-5">
                   <h1 class="mb-4">KingShip the Easy Way To Buy or sell vehicles and houses</h1>
-                  <p style="font-size: 20px;">Welcome to KingShip Properties </p>
+                  <p style="font-size: 20px;">Welcome to KingBridge Properties  </p>
                   <a href="https://vimeo.com/45830194" class="icon-wrap popup-vimeo d-flex align-items-center mt-4 justify-content-center">
                       <div class="icon d-flex align-items-center justify-content-center">
                           <span class="ion-ios-play"></span>
